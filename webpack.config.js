@@ -48,7 +48,7 @@ const browserConfig = {
 
 const serverConfig = {
     mode: "development",
-    entry: { app: "./server/server.ts" },
+    entry: { server: "./server/server.ts" },
     output: {
         filename: "[name].js",
         path: path.resolve(__dirname, "dist")
