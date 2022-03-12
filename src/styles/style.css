@@ -31,7 +31,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: #7784bd;
     background-size: cover;
-    background-image: url("http://localhost:3000/images/bg.gif");
+    background-image: url("/images/bg.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
