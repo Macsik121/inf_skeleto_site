@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import vars from "../../vars";
+import vars from "../vars";
 
 const Footer: FC = () => {
     const authors = vars.authors.map(author => (

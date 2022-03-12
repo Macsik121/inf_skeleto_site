@@ -1,6 +1,6 @@
 :root {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: calc(16px + 1vw + 1.5vh);
 }
 
 * {
@@ -30,8 +30,9 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #7784bd;
+    /* color: #fff; */
     background-size: cover;
-    background-image: url("https://info-proj.herokuapp.com/images/bg.gif");
+    background-image: url("http://localhost:3000/images/bg.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -39,6 +40,8 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 1.2em;
+    /* --base-bg: #C72; */
+    --base-bg: rgba(0, 0, 0, 0.808);
 }
 
 h1 {
@@ -62,6 +65,7 @@ a {
 .nav .nav-link {
     flex-basis: 20%;
     color: rgb(114, 75, 198, .8);
+    /* color: rgba(90, 82, 107); */
     font-size: 1em;
 }
 
@@ -87,16 +91,16 @@ a {
 }
 
 .main .container {
-    background-color: #1C1C24;
+    background-color: var(--base-bg);
     padding: 15px 0;
     min-height: 100vh;
-    -webkit-box-shadow: 0px 0px 22px 0px rgba(255, 255, 255, 0.2);
+    /* -webkit-box-shadow: 0px 0px 22px 0px rgba(255, 255, 255, 0.2);
     -moz-box-shadow: 0px 0px 22px 0px rgba(255, 255, 255, 0.2);
-    box-shadow: 0px 0px 22px 0px rgba(255, 255, 255, 0.2)
+    box-shadow: 0px 0px 22px 0px rgba(255, 255, 255, 0.1) */
 }
 
 .footer {
-    background-color: #1C1C24;
+    background-color: var(--base-bg);
     padding: 25px;
     /* position: absolute; */
     bottom: 0;

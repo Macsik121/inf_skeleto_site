@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
 import vars from "../../vars";
 import Video from "../Video";
 
@@ -9,7 +8,7 @@ const Home: FC = () => {
         <div className="home">
             <main className="main">
                 <div className="container">
-                    <h1>{vars.hTitle}</h1>
+                    {/* <h1>{vars.hTitle}</h1> */}
                     <Video />
                     <h2 className="nav-title">Перейти на страницу:</h2>
                     <nav className="nav">
@@ -21,7 +20,6 @@ const Home: FC = () => {
                     </nav>
                 </div>
             </main>
-            <Footer />
         </div>
     )
 }
