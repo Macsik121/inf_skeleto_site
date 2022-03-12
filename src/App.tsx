@@ -1,16 +1,53 @@
-import React, { FC } from "react";
+import React, { FC, useState, CSSProperties } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./Footer";
-import globals from "../globals";
 import "./styles/style.css";
-// import"./images/jotaro.webp";import"./images/bg.gif";import"./images/video.mp4";import"./images/video.gif";
 import Routing from "./Routing";
+import SwitchTheme from "./SwitchTheme";
+import { IThemes } from "./interfaces";
+import darkLightThemes from "./darkLightThemes";
+import Navbar from "./Nabar";
+import Searchbar from "./Search";
+
+const {
+    darkTheme,
+    lightTheme,
+    linksDarkTheme,
+    linksLightTheme,
+    searchDarkTheme,
+    searchLightTheme
+} = darkLightThemes;
 
 const App: FC = () => {
+    const [theme, setThemeFunc] = useState<IThemes>("dark");
+    function setTheme() {
+        setThemeFunc(theme == "dark" ? "light" : "dark");
+    }
     return (
-        <div className="app">
-            <Routing />
+        <div
+            style={theme == "dark" ? darkTheme : lightTheme}
+            className="app"
+        >
+            <div className="container">
+                <SwitchTheme setTheme={setTheme} theme={theme} />
+                <Searchbar styles={{ searchDarkTheme, searchLightTheme }} theme={theme} />
+                <div className="main">
+                    <div className="container">
+                        <Routing
+                            styles={{
+                                darkTheme,
+                                lightTheme,
+                                linksDarkTheme,
+                                linksLightTheme
+                            }}
+                            theme={theme}
+                            setTheme={setTheme}
+                        />
+                    </div>
+                </div>
+            </div>
+            <Navbar styles={{ linksDarkTheme, linksLightTheme }} theme={theme} />
             <Footer />
         </div>
     )
