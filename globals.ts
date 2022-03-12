@@ -1,3 +1,4 @@
 export default {
-    __UI_SERVER_ENDPOINT__: "https://info-proj.herokuapp.com/"
+    __UI_SERVER_ENDPOINT__: "https://info-proj.herokuapp.com/",
+    production: true
 };
