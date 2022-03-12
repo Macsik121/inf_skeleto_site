@@ -10,46 +10,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/images/bg.gif":
-/*!***************************!*\
-  !*** ./src/images/bg.gif ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/bg.gif\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/bg.gif?");
-
-/***/ }),
-
-/***/ "./src/images/jotaro.webp":
-/*!********************************!*\
-  !*** ./src/images/jotaro.webp ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/jotaro.webp\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/jotaro.webp?");
-
-/***/ }),
-
-/***/ "./src/images/video.gif":
-/*!******************************!*\
-  !*** ./src/images/video.gif ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/video.gif\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/video.gif?");
-
-/***/ }),
-
-/***/ "./src/images/video.mp4":
-/*!******************************!*\
-  !*** ./src/images/video.mp4 ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/video.mp4\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/video.mp4?");
-
-/***/ }),
-
 /***/ "./node_modules/history/index.js":
 /*!***************************************!*\
   !*** ./node_modules/history/index.js ***!
@@ -86,7 +46,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
   \******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647085727136\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/styles/style.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647088049651\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/styles/style.css?");
 
 /***/ }),
 
@@ -206,17 +166,17 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _images_jotaro_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/jotaro.webp */ \"./src/images/jotaro.webp\");\n/* harmony import */ var _images_bg_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/bg.gif */ \"./src/images/bg.gif\");\n/* harmony import */ var _images_video_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/video.mp4 */ \"./src/images/video.mp4\");\n/* harmony import */ var _images_video_gif__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/video.gif */ \"./src/images/video.gif\");\n/* harmony import */ var _Routing__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Routing */ \"./src/Routing.tsx\");\n\n\n\n\n\n\n\n\n\nvar App = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"app\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Routing__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null)));\n};\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null)), document.getElementById(\"contents\"));\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/App.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ \"./src/Footer.tsx\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _Routing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Routing */ \"./src/Routing.tsx\");\n\n\n\n\n\n// import\"./images/jotaro.webp\";import\"./images/bg.gif\";import\"./images/video.mp4\";import\"./images/video.gif\";\n\nvar App = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"app\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Routing__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)));\n};\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null)), document.getElementById(\"contents\"));\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/App.tsx?");
 
 /***/ }),
 
-/***/ "./src/Pages/Footer.tsx":
-/*!******************************!*\
-  !*** ./src/Pages/Footer.tsx ***!
-  \******************************/
+/***/ "./src/Footer.tsx":
+/*!************************!*\
+  !*** ./src/Footer.tsx ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _vars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../vars */ \"./vars.ts\");\n\n\nvar Footer = function () {\n    var authors = _vars__WEBPACK_IMPORTED_MODULE_1__[\"default\"].authors.map(function (author) { return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { key: author, className: \"author\" }, author)); });\n    var authorsPhones = _vars__WEBPACK_IMPORTED_MODULE_1__[\"default\"].authorsPhones.map(function (authorPhone) { return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { key: authorPhone, className: \"author-phone\" }, authorPhone)); });\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer-div authors-wrap\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u0410\\u0432\\u0442\\u043E\\u0440\\u044B:\"),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"authors\" }, authors)),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer-div authors-phones-wrap\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u041A\\u043E\\u043D\\u0442\\u0430\\u043A\\u0442\\u043D\\u044B\\u0435 \\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D/\\u044B\"),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"authors-phones\" }, authorsPhones))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/Pages/Footer.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _vars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../vars */ \"./vars.ts\");\n\n\nvar Footer = function () {\n    var authors = _vars__WEBPACK_IMPORTED_MODULE_1__[\"default\"].authors.map(function (author) { return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { key: author, className: \"author\" }, author)); });\n    var authorsPhones = _vars__WEBPACK_IMPORTED_MODULE_1__[\"default\"].authorsPhones.map(function (authorPhone) { return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { key: authorPhone, className: \"author-phone\" }, authorPhone)); });\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer-div authors-wrap\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u0410\\u0432\\u0442\\u043E\\u0440\\u044B:\"),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"authors\" }, authors)),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"footer-div authors-phones-wrap\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u041A\\u043E\\u043D\\u0442\\u0430\\u043A\\u0442\\u043D\\u044B\\u0435 \\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D/\\u044B\"),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"authors-phones\" }, authorsPhones))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/Footer.tsx?");
 
 /***/ }),
 
@@ -266,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer */ \"./src/Pages/Footer.tsx\");\n/* harmony import */ var _vars__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../vars */ \"./vars.ts\");\n/* harmony import */ var _Video__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Video */ \"./src/Video.tsx\");\n\n\n\n\n\nvar Home = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"home\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"main\", { className: \"main\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"container\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, _vars__WEBPACK_IMPORTED_MODULE_2__[\"default\"].hTitle),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Video__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", { className: \"nav-title\" }, \"\\u041F\\u0435\\u0440\\u0435\\u0439\\u0442\\u0438 \\u043D\\u0430 \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0443:\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"nav\", { className: \"nav\" },\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, { className: \"nav-link\", to: \"\" }, \"\\u0413\\u043B\\u0430\\u0432\\u043D\\u0430\\u044F\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, { className: \"nav-link\", to: \"page2\" }, \"\\u0412\\u0442\\u043E\\u0440\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, { className: \"nav-link\", to: \"page3\" }, \"\\u0422\\u0440\\u0435\\u0442\\u044C\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, { className: \"nav-link\", to: \"page4\" }, \"\\u0427\\u0435\\u0442\\u0432\\u0451\\u0440\\u0442\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, { className: \"nav-link\", to: \"page5\" }, \"\\u041F\\u044F\\u0442\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\")))),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/Pages/index.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _Video__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Video */ \"./src/Video.tsx\");\n\n\n\nvar Home = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"home\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"main\", { className: \"main\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"container\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Video__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", { className: \"nav-title\" }, \"\\u041F\\u0435\\u0440\\u0435\\u0439\\u0442\\u0438 \\u043D\\u0430 \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0443:\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"nav\", { className: \"nav\" },\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { className: \"nav-link\", to: \"\" }, \"\\u0413\\u043B\\u0430\\u0432\\u043D\\u0430\\u044F\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { className: \"nav-link\", to: \"page2\" }, \"\\u0412\\u0442\\u043E\\u0440\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { className: \"nav-link\", to: \"page3\" }, \"\\u0422\\u0440\\u0435\\u0442\\u044C\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { className: \"nav-link\", to: \"page4\" }, \"\\u0427\\u0435\\u0442\\u0432\\u0451\\u0440\\u0442\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { className: \"nav-link\", to: \"page5\" }, \"\\u041F\\u044F\\u0442\\u0430\\u044F \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\"))))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/Pages/index.tsx?");
 
 /***/ }),
 
@@ -392,7 +352,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("ac952a8e86d5408f4df3")
+/******/ 		__webpack_require__.h = () => ("f93c9435bb0979549b33")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
