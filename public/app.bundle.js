@@ -10,6 +10,36 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/images/bg.gif":
+/*!***************************!*\
+  !*** ./src/images/bg.gif ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/bg.gif\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/bg.gif?");
+
+/***/ }),
+
+/***/ "./src/images/jotaro.webp":
+/*!********************************!*\
+  !*** ./src/images/jotaro.webp ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/jotaro.webp\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/jotaro.webp?");
+
+/***/ }),
+
+/***/ "./src/images/video.mp4":
+/*!******************************!*\
+  !*** ./src/images/video.mp4 ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/video.mp4\");\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/images/video.mp4?");
+
+/***/ }),
+
 /***/ "./node_modules/history/index.js":
 /*!***************************************!*\
   !*** ./node_modules/history/index.js ***!
@@ -46,7 +76,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
   \******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647081595457\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/styles/style.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647084076484\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/styles/style.css?");
 
 /***/ }),
 
@@ -166,7 +196,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/jotaro.webp'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/bg.gif'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/video.mp4'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/video.gif'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var _Routing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Routing */ \"./src/Routing.tsx\");\n\n\n\n\n\n\n\n\n\nvar App = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"app\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Routing__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null)));\n};\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null)), document.getElementById(\"contents\"));\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/App.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/index.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _images_jotaro_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/jotaro.webp */ \"./src/images/jotaro.webp\");\n/* harmony import */ var _images_bg_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/bg.gif */ \"./src/images/bg.gif\");\n/* harmony import */ var _images_video_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/video.mp4 */ \"./src/images/video.mp4\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/video.gif'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var _Routing__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Routing */ \"./src/Routing.tsx\");\n\n\n\n\n\n\n\n\n\nvar App = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"app\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Routing__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null)));\n};\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null)), document.getElementById(\"contents\"));\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./src/App.tsx?");
 
 /***/ }),
 
@@ -352,7 +382,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("fcbf621cb314a6412aa6")
+/******/ 		__webpack_require__.h = () => ("5f63c6f724d3d392f8ba")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
