@@ -32,7 +32,7 @@ body {
     color: #7784bd;
     /* color: #fff; */
     background-size: cover;
-    background-image: url("http://localhost:3000/images/bg.gif");
+    background-image: url("https://info-proj.herokuapp.com/images/bg.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
