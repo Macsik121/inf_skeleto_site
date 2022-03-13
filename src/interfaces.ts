@@ -3,7 +3,7 @@ export type IThemes = "dark" | "light";
 export interface Content {
     tag: any;
     class?: string;
-    content: string;
+    content: Array<JSX.Element> | string;
 }
 
 export interface PageContent {

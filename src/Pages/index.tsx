@@ -1,8 +1,6 @@
 import React, { FC, CSSProperties } from "react";
-// import { Link } from "react-router-dom";
-// import vars from "../../vars";
-// import Video from "../Video";
 import { IThemes } from "../interfaces";
+import PageContent from "./PageContent";
 
 const Home: FC<{
     styles: {
@@ -19,9 +17,11 @@ const Home: FC<{
     ,
     theme
 }) => {
+    const pageId = 1;
+    const pageContent = PageContent(pageId);
     return (
         <div className="home">
-            
+            {pageContent}
         </div>
     )
 }

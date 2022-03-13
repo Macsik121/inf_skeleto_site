@@ -1,6 +1,10 @@
 /*!************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/style.css ***!
   \************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Eater&display=swap);
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/style.css (1) ***!
+  \****************************************************************************/
 :root {
     box-sizing: border-box;
     font-size: calc(16px + 1vw + 1.5vh);
@@ -215,6 +219,46 @@ a {
     padding-top: 25px;
 }
 
+.home .main-list {
+    padding-left: calc(24px + 15px);
+    list-style-type: circle;
+}
+
+.creepy-item .creepy-wrap {
+    font-family: 'Eater', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.creepy-item .neon {
+    animation: flicker 1s infinite alternate;
+    /* color: #aaa; */
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        --main-color: rgba(0, 174, 255);
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px var(--main-color),
+            0 0 40px var(--main-color),
+            0 0 80px var(--main-color),
+            0 0 90px var(--main-color),
+            0 0 100px var(--main-color),
+            0 0 150px var(--main-color);
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+
+.home .main-list .main-list-item.creepy-item:last-child .neon {
+    animation: flicker 2s infinite alternate;
+}
+
 .main .container {
     background-color: var(--base-bg);
     padding: 15px 0;
@@ -232,6 +276,22 @@ a {
     left: 0;
     width: 100%;
     /* color: #fff; */
+    font-size: 1.2rem;
+}
+
+@media (max-width: 630px) {
+    .footer .authors {
+        flex-direction: column;
+    }
+    .footer .authors-phones {
+        flex-direction: column;
+    }
+    .footer .footer-div .authors .author + .author {
+        margin-left: 0;
+    }
+    .footer .footer-div .authors-phones .author-phone + .author-phone {
+        margin-left: 0;
+    }
 }
 
 .footer .footer-div + .footer-div {

@@ -63,6 +63,11 @@ const Search: FC<{
                 let currentContentMatch = 0;
                 for(let i = 0; i < pageContent.content.length; i++) {
                     const content: Content & { id?: number } = pageContent.content[i];
+                    console.log("content type is:", typeof content.content)
+                    if (typeof content.content !== "string") {
+                        return;
+                    }
+                    console.log("loop is proceed");
                     const resultContent = strongSearch(search, content.content);
                     if (resultContent.success) {
                         currentContentMatch++;
@@ -95,7 +100,7 @@ const Search: FC<{
             });
             setSearchedPages(result);
             setRendering(false);
-        }, 100);
+        }, 0);
     }
     return (
         <div className="search">
