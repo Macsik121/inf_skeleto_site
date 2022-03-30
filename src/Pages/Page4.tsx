@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { FC, useEffect, Dispatch, SetStateAction } from "react";
 import { Link } from "react-router-dom";
 import { IThemes } from "../interfaces";
@@ -62,14 +61,6 @@ const Page4: FC<{
     return (
         <div className="page4">
             {pageContent}
-=======
-import React, { FC } from "react";
-
-const Page4: FC = () => {
-    return (
-        <div className="page4">
-            The fourth page
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
         </div>
     )
 }

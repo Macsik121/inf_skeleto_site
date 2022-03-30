@@ -33,11 +33,11 @@ const browserConfig = {
     resolve: {
         extensions: [ ".js", ".ts", ".tsx" ]
     },
-    devServer: {
-        static: "./public",
-        // hot: true,
-        port
-    },
+    // devServer: {
+    //     static: "./public",
+    //     // hot: true,
+    //     port
+    // },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new MiniCssExtractPlugin({

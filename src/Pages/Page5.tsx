@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { FC, useEffect, useState } from "react";
 
 const Page5: FC = () => {
@@ -29,14 +28,6 @@ const Page5: FC = () => {
     return (
         <div className="page5">
             
-=======
-import React, { FC } from "react";
-
-const Page5: FC = () => {
-    return (
-        <div className="page5">
-            The fifth page
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
         </div>
     )
 }

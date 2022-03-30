@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 
 :root {
     box-sizing: border-box;
@@ -61,7 +57,6 @@ body {
 .app {
     color: #7784bd;
     --base-bg: #2c2b2b9a;
-<<<<<<< HEAD
     /* background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -77,13 +72,6 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
-=======
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 }
 
 h1 {
@@ -108,14 +96,9 @@ a {
 }
 
 .toggle-button-container {
-<<<<<<< HEAD
     /* background-color: var(--base-bg); */
     padding: 15px;
     max-width: 1200px;
-=======
-    background-color: var(--base-bg);
-    padding: 15px;
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 }
 
 .switch-theme {
@@ -136,11 +119,7 @@ a {
 }
 
 .switch-theme .toggle-button.dark {
-<<<<<<< HEAD
     border: 3px solid #808080;
-=======
-    border: 3px solid #fff;
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
     background-color: #000;
 }
 
@@ -150,11 +129,7 @@ a {
 }
 
 .switch-theme .toggle-button .toggle-circle {
-<<<<<<< HEAD
     background-color: rgb(80, 80, 80);
-=======
-    background-color: #808080;
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
     border: 3px solid #000;
     width: 40%;
     height: 90%;
@@ -250,7 +225,6 @@ a {
     padding-top: 25px;
 }
 
-<<<<<<< HEAD
 .bloody-text {
     font-family: Nosifer, cursive;
     line-height: 100px;
@@ -277,14 +251,11 @@ a {
        4px 40px 2px #FF0000;
 }
 
-=======
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 .home .main-list {
     padding-left: calc(24px + 15px);
     list-style-type: circle;
 }
 
-<<<<<<< HEAD
 .home .text:first-of-type {
     text-align: right;
     margin-top: 35px;
@@ -394,8 +365,6 @@ a {
     color: rgba(119, 132, 189, .15);
 }
 
-=======
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 .creepy-item .creepy-wrap {
     font-family: 'Eater', cursive;
     font-weight: 400;
@@ -407,7 +376,6 @@ a {
     /* color: #aaa; */
 }
 
-<<<<<<< HEAD
 .text {
     display: inline-block;
     text-align: center;
@@ -427,10 +395,6 @@ a {
 }
 
 @keyframes flicker {
-=======
-@keyframes flicker {
-    
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
         --main-color: rgba(0, 174, 255);
         text-shadow:

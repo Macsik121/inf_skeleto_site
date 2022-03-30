@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { CSSProperties, Dispatch, FC, SetStateAction } from "react";
-=======
-import React, { CSSProperties, FC } from "react";
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 import { Route, Routes } from "react-router-dom";
 import { IThemes } from "./interfaces";
 import Home from "./Pages";
@@ -19,7 +15,6 @@ const Routing: FC<{
         linksLightTheme: CSSProperties
     },
     theme: IThemes,
-<<<<<<< HEAD
     setTheme: any,
     links: Array<JSX.Element>,
     setLinks: Dispatch<SetStateAction<Array<JSX.Element>>>
@@ -29,13 +24,6 @@ const Routing: FC<{
     setTheme,
     links,
     setLinks
-=======
-    setTheme: any
-}> = ({
-    styles,
-    theme,
-    setTheme
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 }) => {
     return (
         <Routes>
@@ -52,7 +40,6 @@ const Routing: FC<{
             </Route>
             <Route path="page2" element={<Page2 />} />
             <Route path="page3" element={<Page3 />} />
-<<<<<<< HEAD
             <Route
                 path="page4"
                 element={
@@ -64,9 +51,6 @@ const Routing: FC<{
                     />
                 }
             />
-=======
-            <Route path="page4" element={<Page4 />} />
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
             <Route path="page5" element={<Page5 />} />
         </Routes>
     )

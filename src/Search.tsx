@@ -5,7 +5,6 @@ import { CircularProgress } from "@material-ui/core";
 
 function strongSearch(searchValue: string, matchingValue: string) {
     searchValue = searchValue.toLowerCase();
-<<<<<<< HEAD
     const matchingValueSplit: Array<string> = matchingValue.toLowerCase().split(" ");
     let index = 0;
     const queryMatches = matchingValueSplit.find((str, i) => {
@@ -18,32 +17,6 @@ function strongSearch(searchValue: string, matchingValue: string) {
     if (queryMatches) {
         return index;
     }
-=======
-    matchingValue = matchingValue.toLowerCase();
-    // let matchingCount = 0;
-    // const neededMatchingCount = 4;
-    // const matchedLetters: Array<string> = [];
-    // for(let i = 0; i < searchValue.length; i++) {
-    //     const currentLetter = searchValue[i];
-        // for(let j = 0; j < matchingValue.length; j++) {
-        //     const matchingLetter = matchingValue[j];
-        //     if (currentLetter == matchingLetter) {
-        //         matchingCount++;
-        //         matchedLetters.push(currentLetter);
-        //     }
-        // }
-    // }
-    if (matchingValue.includes(searchValue)) {
-        const splittedResult = matchingValue.split(" ");
-        console.log(splittedResult.indexOf(searchValue));
-        return { success: true, indexOfWord: splittedResult.indexOf(searchValue) };
-    } else
-        return { success: false };
-    // if (matchingCount >= neededMatchingCount)
-    //     return true
-    // else
-    //     return false
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
 }
 
 const Search: FC<{
@@ -76,7 +49,6 @@ const Search: FC<{
                 const maxContentMatch = 3;
                 const contentFound: Array<JSX.Element> = [];
                 let currentContentMatch = 0;
-<<<<<<< HEAD
                 let pageContentAsString = "";
                 function findChildrensChildren(children: JSX.Element) {
                     if (children.props.children)
@@ -153,52 +125,13 @@ const Search: FC<{
                             </div>
                         </div>
                     );
-=======
-                for(let i = 0; i < pageContent.content.length; i++) {
-                    const content: Content & { id?: number } = pageContent.content[i];
-                    console.log("content type is:", typeof content.content)
-                    if (typeof content.content !== "string") {
-                        return;
-                    }
-                    console.log("loop is proceed");
-                    const resultContent = strongSearch(search, content.content);
-                    if (resultContent.success) {
-                        currentContentMatch++;
-                        content.id = pageContent.id;
-                        contentFound.push(
-                            <div
-                                key={`${resultContent.success} ${resultContent.indexOfWord} ${content.id} ${i}`}
-                                className="searched-page"
-                            >
-                                <div className="searched-page-id">Номер страницы: {content.id}</div>
-                                <div className="searched-page-content">
-                                    {(function() {
-                                        // if (resultContent.indexOfWord - 2 > 1 && resultContent.indexOfWord + ) {
-
-                                        // }
-                                        console.log(resultContent.indexOfWord);
-                                        return "Found content: " + content.content.split(" ")[resultContent.indexOfWord];
-                                    })()}
-                                </div>
-                            </div>
-                        );
-                    }
-                    if (currentContentMatch >= maxContentMatch) {
-                        break;
-                    }
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
                 }
                 return (
                     contentFound
                 )
             });
-<<<<<<< HEAD
             setRendering(false);
             setSearchedPages(result);
-=======
-            setSearchedPages(result);
-            setRendering(false);
->>>>>>> aa635163f642bfe71f08b5c2aef388654c101331
         }, 0);
     }
     return (
