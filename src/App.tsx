@@ -1,4 +1,5 @@
 import React, { FC, useState, CSSProperties, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Link } from "react-router-dom";
 import Footer from "./Footer";
@@ -56,9 +57,13 @@ const App: FC = () => {
                 }
                 alt="background"
                 className="app-background"
+                id="appBg"
             />
             <div className="container">
-                <Searchbar styles={{ searchDarkTheme, searchLightTheme }} theme={theme} />
+                <Searchbar
+                    styles={{ searchDarkTheme, searchLightTheme }} theme={theme}
+                    // id="pagesSearch"
+                />
                 <div className="main">
                     <div className="container">
                         <Routing

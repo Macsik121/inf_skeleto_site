@@ -1,4 +1,5 @@
 import React, { FC, useEffect, Dispatch, SetStateAction } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { IThemes } from "../interfaces";
 import PageContent from "./PageContent";
@@ -20,6 +21,8 @@ const Page4: FC<{
         linksLightTheme
     }
 }) => {
+    const duration = 1000;
+    const navigate = useNavigate();
     useEffect(() => {
         let newLinks: Array<JSX.Element> = [...links];
         let styles: React.CSSProperties = {  };
@@ -44,9 +47,25 @@ const Page4: FC<{
         setLinks(newLinks);
         setTimeout(() => {
             const link = document.getElementById("fivthNavLink");
-            link.style.transform = "translateY(0)";
-            link.style.opacity = "1";
-            link.style.pointerEvents = "all";
+            if (link) {
+                link.style.transform = "translateY(0)";
+                link.style.opacity = "1";
+                link.style.pointerEvents = "all";
+            }
+            window.onkeydown = function(e: KeyboardEvent) {
+                if (e.shiftKey) {
+                    if (e.key === "!" || e.key === "!")
+                        navigate("/");
+                    else if (e.key === "@" || e.key === '"')
+                        navigate("/page2")
+                    else if (e.key === "#" || e.key === "№")
+                        navigate("/page3")
+                    else if (e.key === "$" || e.key === ";")
+                        navigate("/page4")
+                    else if (e.key === "%" || e.key === "%")
+                        navigate("/page5")
+                }
+            }
         }, 1000);
         return () => {
             setLinks((oldLinks: any) => {

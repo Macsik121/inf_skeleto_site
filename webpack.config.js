@@ -39,7 +39,7 @@ const browserConfig = {
     //     port
     // },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
+        // new webpack.HotModuleReplacementPlugin(),
         new MiniCssExtractPlugin({
             filename: "[name].styles.css"
         }),

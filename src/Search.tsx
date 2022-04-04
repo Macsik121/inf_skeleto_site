@@ -135,7 +135,7 @@ const Search: FC<{
         }, 0);
     }
     return (
-        <div className="search">
+        <div id="pagesSearch" className="search">
             <input
                 style={theme == "dark" ? searchDarkTheme : searchLightTheme}
                 onChange={searchPages}

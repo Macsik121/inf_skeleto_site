@@ -44,14 +44,14 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-size: cover;
-    /* background-image: url("https://info-proj.herokuapp.com/images/bg.gif"); */
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; */
     height: 100%;
     display: flex;
     flex-direction: column;
     font-size: 1.2em;
+    --box-shadow-color-screamer: #ff0;
+    --base-box-shadow-screamer: 0 5vh 150px var(--box-shadow-color-screamer) inset;
+    --transparent-box-shadow-screamer: 0 5vh 150px transparent inset;
+    --screamer-video-bg: #000;
 }
 
 .app {
@@ -66,7 +66,7 @@ body {
 }
 
 .app-background {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -363,6 +363,72 @@ a {
 .page4 .confirming .dialog {
     font-size: .8em;
     color: rgba(119, 132, 189, .15);
+}
+
+.page5 {
+    --init-index: 3;
+}
+
+.page5 .scary-audio {
+    position: absolute;
+    top: -100vh;
+}
+
+.page5 .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: var(--init-index);
+    background-color: #fff;
+}
+
+.page5 .screamer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+    z-index: calc(var(--init-index) + 2);
+}
+
+.page5 .screamer .screamer-video {
+    width: 100%;
+    height: 100%;
+    background-color: var(--screamer-video-bg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: calc(var(--init-index) + 3);
+}
+
+.page5 .congratulation {
+    z-index: calc(var(--init-index) + 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #808080;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+@keyframes light {
+    1%, 5%, 12%, 80%, 82%, 84% {
+        box-shadow: var(--base-box-shadow-screamer);
+    }
+    0%, 3%, 8%, 13%, 81%, 83%, 100% {
+        box-shadow: var(--transparent-box-shadow-screamer);
+    }
 }
 
 .creepy-item .creepy-wrap {

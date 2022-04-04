@@ -1,4 +1,5 @@
-import React, { CSSProperties, Dispatch, FC, SetStateAction } from "react";
+import React, { CSSProperties, Dispatch, FC, SetStateAction, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import { IThemes } from "./interfaces";
 import Home from "./Pages";
@@ -25,6 +26,20 @@ const Routing: FC<{
     links,
     setLinks
 }) => {
+    const navigate = useNavigate();
+    window.onkeydown = function(e: KeyboardEvent) {
+        console.log(e)
+        if (e.shiftKey) {
+            if (e.keyCode === 49)
+                navigate("/");
+            else if (e.keyCode === 50)
+                navigate("/page2")
+            else if (e.keyCode === 51)
+                navigate("/page3")
+            else if (e.keyCode === 52)
+                navigate("/page4")
+        }
+    };
     return (
         <Routes>
             <Route path="">
