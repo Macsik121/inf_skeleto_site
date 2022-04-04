@@ -5,9 +5,9 @@
     font-size: calc(16px + 1vw + 1.5vh);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
     :root {
-        font-size: calc(16px + 1.5vw);
+        font-size: calc(20px + 1.5vw);
     }
 }
 
@@ -102,13 +102,13 @@ a {
 }
 
 .switch-theme {
-    --theme-width: 90px;
+    --theme-width: 120px;
     max-width: var(--theme-width);
 }
 
 .switch-theme .toggle-button {
     width: var(--theme-width);
-    height: 45px;
+    height: calc(var(--theme-width) / 2);
     border-radius: 50px;
     position: relative;
     cursor: pointer;
@@ -180,7 +180,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 2.5%;
+    flex-basis: 25px;
     color: rgba(114, 75, 198, .8);
     /* color: rgba(90, 82, 107); */
     font-size: 1em;
@@ -254,6 +254,7 @@ a {
 .home .main-list {
     padding-left: calc(24px + 15px);
     list-style-type: circle;
+    font-size: 1.3em;
 }
 
 .home .text:first-of-type {
@@ -306,10 +307,18 @@ a {
     text-align: right;
 }
 
+@media (max-width: 680px) {
+    .page3 .movie {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .page3 .movie {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    word-wrap: break-word;
 }
 
 .page3 .movie + .movie {
@@ -352,6 +361,7 @@ a {
 .page4 .confirming .ending {
     text-align: center;
     display: inline-block;
+    font-size: 1.2em;
 }
 
 .page4 .confirming .dialog-wrap {
@@ -500,7 +510,7 @@ a {
     left: 0;
     width: 100%;
     /* color: #fff; */
-    font-size: 1.2rem;
+    font-size: 1.3em;
 }
 
 @media (max-width: 630px) {

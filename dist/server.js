@@ -16,7 +16,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    __UI_SERVER_ENDPOINT__: (\n    // \"https://info-proj.herokuapp.com/\"\n    \"http://localhost:3000/\"),\n    // production: true\n});\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./globals.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    __UI_SERVER_ENDPOINT__: (\"https://info-proj.herokuapp.com/\"\n    // \"http://localhost:3000/\"\n    ),\n    // production: true\n});\n\n\n//# sourceURL=webpack://danyas_w_andrew_site_skeleton/./globals.ts?");
 
 /***/ }),
 
